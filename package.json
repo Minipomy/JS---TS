@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "echo \"[ ENV:DEV - START ] - Server starting... \" && nodemon ./click_counter/src/index.js",
-    "prod": "echo \"[ ENV:PROD - START ] - Server starting... \" && node ././click_counter/src/index.js"
+    "prod": "echo \"[ ENV:PROD - START ] - Server starting... \" && node ./click_counter/src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
   "dependencies": {
     "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
+    "commander": "^12.1.0",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
     "moment": "^2.30.1",

@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <%- include('head') %>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <body>
-    <h1> Welcome to <%= title %> </h1>
-
-    <h2><span> <%= count %></span></h2>
-
+    <h1>Welcome to <%= title %></h1>
+    <h2><span id="count"><%= count %></span></h2>
     <button type="button" id="btn-onClick">Click Me!</button>
-    <script src="<%- include('../public/script.js') %>"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
